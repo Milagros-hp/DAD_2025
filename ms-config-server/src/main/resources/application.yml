@@ -1,5 +1,5 @@
 server:
-  port: 7070
+  port: 9090
 
 spring:
   application:
@@ -8,6 +8,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Milagros-h/DAD_2025.git # ruta del repositorio git
+          uri: https://github.com/Milagros-hp/DAD_2025.git # ruta del repositorio git
           searchPaths: config-data
           default-label: main
+
+  security:
+    user:
+      name: root
+      password: 123456
